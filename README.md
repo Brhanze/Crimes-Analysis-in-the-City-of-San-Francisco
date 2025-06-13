@@ -1,44 +1,54 @@
-# Crimes Analysis in the City of San Francisco
+# 🕵️‍♂️ Crimes Analysis in the City of San Francisco
 
-## Overview
+This project analyzes crime data in San Francisco to uncover patterns, trends, and hotspots. It leverages data visualization and geospatial tools to provide a comprehensive view of the city's crime landscape, including time-series trends and high-crime locations.
 
-This project involves analyzing crime data in the city of San Francisco to uncover patterns, trends, and insights. By leveraging various data analysis and visualization techniques, the project aims to provide a comprehensive understanding of the crime landscape in San Francisco. The analysis includes identifying high-crime areas, examining the types of crimes committed, and visualizing temporal trends.
+---
 
-## Objectives
+## 🎯 Objectives
 
-- To analyze the crime data of San Francisco to identify patterns and trends.
-- To visualize the crime data for better interpretation and decision-making.
-- To provide insights and recommendations based on the data analysis.
+- Identify patterns in crime types and frequency across neighborhoods
+- Visualize crime hotspots with interactive maps
+- Detect seasonal or daily trends in crime reporting
+- Generate insights for public safety decision-making
 
-## Technologies and Tools Used
+---
 
-- **Programming Language:** Python
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Folium
-- **Data Visualization Tools:** Jupyter Notebooks, Folium for interactive maps
-- **Dataset:** Crime data sourced from official San Francisco crime reports
+## 🛠 Technologies and Tools
 
-## Key Features
+- **Language**: Python
+- **Libraries**: pandas, NumPy, matplotlib, seaborn, folium
+- **Visualization**: Jupyter Notebooks, interactive crime maps
+- **Data Source**: [San Francisco Open Data Portal](https://data.sfgov.org)
 
-- **Data Cleaning:** Handling missing values and preparing the data for analysis.
-- **Exploratory Data Analysis (EDA):** Gaining initial insights and understanding the dataset's structure.
-- **Data Visualization:** Creating plots and maps to visualize crime trends and distributions.
-- **Interactive Maps:** Developing interactive maps to explore geographical crime patterns.
+---
 
-## Getting Started
+## 📈 Project Workflow
 
-### Prerequisites
+1. **Data Cleaning** – Removing duplicates, missing values, and irrelevant columns
+2. **Exploratory Data Analysis (EDA)** – Crime type distributions, temporal patterns, and bar charts
+3. **Geospatial Mapping** – Plotting crime locations with `folium` and neighborhood overlays
+4. **Insights** – Summarizing areas with high incident counts and peak crime hours
 
-- Python 3.x
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Folium
+---
 
-### Installation
+## 📊 Key Results
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Brhanze/sf-crime-analysis.git
-   cd sf-crime-analysis
+- Mapped over 100,000+ crime reports
+- Identified top 5 most frequent crime types and their locations
+- Detected peak crime reporting hours between 6 PM and 10 PM
+
+---
+
+---
+
+## 🚀 Future Improvements
+
+- Add crime severity prediction using classification models
+- Integrate demographic data for socioeconomic insights
+- Build a Streamlit dashboard for real-time filtering and display
+
+---
+
+## 👤 Author
+**Brhan Zelalem Tsegaye**  
+[GitHub](https://github.com/Brhanze) | [LinkedIn](https://www.linkedin.com/in/brhanzelalem-tsegaye)
